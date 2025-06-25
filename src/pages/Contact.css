@@ -1,0 +1,55 @@
+/* General Styling for Contact */
+.contact {
+    max-width: 80%; 
+    margin: auto;
+  }
+  
+  .section-box {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Limit width to 80% */
+    margin: 0 auto; /* Center the section horizontally */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .contact-item {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    margin-bottom: 20px; /* Space between items */
+  }
+  
+  .contact-icon {
+    font-size: 1.5em; /* Size of the icon */
+    margin-right: 15px; /* Space between icon and text */
+    color: #007bff; /* Icon color */
+  }
+  
+  .contact-text {
+    display: flex;
+    flex-direction: column; /* Stack text vertically */
+  }
+  
+  .contact-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .contact-item p {
+    margin: 5px 0;
+  }
+  
+  /* Hover effect */
+  .contact-item:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  

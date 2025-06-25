@@ -1,0 +1,124 @@
+/* General Header Styles */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: royalblue;
+  border-bottom: 1px solid royalblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  display: flex; /* Make logo flex container */
+  align-items: center; /* Center logo vertically */
+}
+
+.header .nav-menu {
+  display: flex;
+  align-items: center; /* Center nav links vertically */
+}
+
+.header .nav-menu a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+}
+h3{
+  color: white;
+}
+.header .nav-menu a:hover {
+  color: black;
+}
+
+/* Upgrade to Premium Button */
+.premium-link {
+  background-color: blue; /* Blue background */
+  text-color: white; /* White text */
+  padding: 10px 15px; /* Padding inside button */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s; /* Smooth background color transition */
+  align-self: center; /* Center align in header */
+}
+
+.premium-link:hover {
+  background-color: darkblue; /* Darker blue on hover */
+}
+
+/* Menu Icon Styles */
+.menu-icon {
+  display: none;
+  font-size: 2em;
+  color: white;
+  padding-left: 15;
+  cursor: pointer;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Hide the sidebar completely off-screen */
+  width: 250px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.sidebar.open {
+  transform: translateX(300px); /* Slide the sidebar into view */
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.sidebar .close-btn {
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+/* Backdrop Styles */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 900;
+  display: none;
+}
+
+.backdrop.open {
+  display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header .nav-menu {
+      display: none;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+}

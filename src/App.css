@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+ font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+}
+
+.content {
+
+  min-height: calc(100vh - 120px); /* Adjust height to account for header and footer */
+  overflow-x: hidden;
+}
+
+
+header {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  bottom: 0;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}

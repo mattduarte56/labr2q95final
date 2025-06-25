@@ -1,0 +1,65 @@
+/* General Styling for Projects */
+.projects {
+    
+    max-width: 80%; /* Set maximum width to 80% */
+    margin: 0 auto; /* Center the section horizontally */
+
+  }
+  
+  .project-box {
+    display: flex;
+    flex-direction: column; /* Default to column for mobile */
+    margin: 10px 0; /* Space between stacked items */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.121);
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .project-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically for mobile by default */
+  }
+  
+  .project-text {
+    margin-bottom: 20px;
+    
+    /* Add margin to the right of the text for web layout */
+    margin-left: 20px;
+  }
+  
+  .project-image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.121);
+  }
+  
+  /* Media Query for Web Layout */
+  @media (min-width: 768px) {
+    .project-box {
+      flex-direction: row; /* Align items side-by-side on web */
+    }
+  
+    .project-content {
+      flex-direction: row; /* Align text and image side-by-side on web */
+    }
+  
+    .project-text {
+      flex: 2; /* Give more space to text */
+      margin-right: 20px; /* Space between text and image */
+    }
+  
+    .project-image {
+      flex: 1; /* Space for image */
+      display: flex;
+      justify-content: center;
+    }
+  }
+  

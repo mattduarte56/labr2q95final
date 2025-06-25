@@ -1,0 +1,18 @@
+.footer p {
+    margin: 0;
+    color: white;
+  }
+.footer a{
+    color: white;
+}
+  
+  .footer{
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    bottom: 0;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+  }
