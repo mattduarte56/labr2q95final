@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/labr2q95final/static/css/main.f241fb49.css",
+    "main.js": "/labr2q95final/static/js/main.0f9a27b7.js",
+    "static/media/eco.png": "/labr2q95final/static/media/eco.d404a7f2512820f35d20.png",
+    "static/media/fost.png": "/labr2q95final/static/media/fost.40f959ac3abb95ee7295.png",
+    "static/media/holden.png": "/labr2q95final/static/media/holden.64d68a193c36cc23c4fc.png",
+    "static/media/dog.png": "/labr2q95final/static/media/dog.2e2d65f88327e058288b.png",
+    "static/media/ferg.png": "/labr2q95final/static/media/ferg.41fc98024877b700cb29.png",
+    "static/media/sled.png": "/labr2q95final/static/media/sled.419e65fa91d25ea84e61.png",
+    "static/media/vine.png": "/labr2q95final/static/media/vine.e6654d4f44f2bd7d88c3.png",
+    "static/media/legal.png": "/labr2q95final/static/media/legal.143ffd90c133310bd87f.png",
+    "static/media/aaa.jpeg": "/labr2q95final/static/media/aaa.1fc8c6b320dc45c9ea89.jpeg",
+    "static/media/soci.jpg": "/labr2q95final/static/media/soci.9d058f567f7f6f2df773.jpg",
+    "static/media/dudigital.jpg": "/labr2q95final/static/media/dudigital.15e8d40683a2553c914c.jpg",
+    "static/media/rees.jpg": "/labr2q95final/static/media/rees.6d967b56709af8bcf2e9.jpg",
+    "static/media/dudigital.png": "/labr2q95final/static/media/dudigital.6f948d20851c2cd0d6b2.png",
+    "index.html": "/labr2q95final/index.html",
+    "main.f241fb49.css.map": "/labr2q95final/static/css/main.f241fb49.css.map",
+    "main.0f9a27b7.js.map": "/labr2q95final/static/js/main.0f9a27b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f241fb49.css",
+    "static/js/main.0f9a27b7.js"
+  ]
+}
